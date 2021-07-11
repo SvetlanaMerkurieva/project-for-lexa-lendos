@@ -1,0 +1,7 @@
+.body {
+    background-color: rgb(31, 30, 30); 
+    background-image: url(../images/background1920х1080.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
