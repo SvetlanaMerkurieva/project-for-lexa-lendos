@@ -167,6 +167,29 @@
     box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.4);
     z-index: 7;
 }
+.button {
+    width: 443px;
+    height: 100px;
+    left: 499px;
+    top: 654px;
+    z-index: 7;
+
+    background: linear-gradient(180deg, #FF0000 0%, #670202 100%);
+    border-radius: 50px;
+}
+.link-site {
+    position: absolute;
+    width: 203px;
+    height: 43px;
+    left: 619px;
+    top: 684px;
+    z-index: 8;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.19;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .text {
     font-style: normal;
     font-weight: bold;
