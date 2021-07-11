@@ -1,7 +1,147 @@
 .body {
     background-color: rgb(31, 30, 30); 
-    background-image: url(../images/background1920х1080.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    color: #FFFFFF;
+    font-family: Rubik, sans-serif; 
+}
+.section {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+    .section{
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .section{
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section {
+        width: 1200px;
+    }
+}
+.picture {
+    position: absolute;
+}
+.background {
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.logo {
+    width: 486px;
+    height: 185px;
+    left: 62px;
+    top: 0px;
+    z-index: 2;
+}
+.ball {
+    width: 152px;
+    height: 149px;
+    left: 145px;
+    top: 320px;
+    z-index: 6;
+}
+.big-coin {
+    width: 80.14px;
+    height: 112.47px;
+    left: 437.58px;
+    top: 726.54px;
+    z-index: 7;
+}
+.cherry {
+    width: 101.48px;
+    height: 92px;
+    left: 1083.05px;
+    top: 396px;
+    z-index: 7;
+}
+.chip {
+    position: absolute;
+    width: 108px;
+    height: 80px;
+    left: 688px;
+    top: 38px;
+    z-index: 7;
+}
+.coin {
+    width: 89px;
+    height: 65px;
+    left: 976px;
+    top: 270.85px;
+    z-index: 7;
+}
+.footballer {
+    display: none;
+    width: 684px;
+    height: 754px;
+    left: 1547px;
+    top: 315px;
+    z-index: 4;
+}
+.grape {
+    width: 97px;
+    height: 97px;
+    left: 671px;
+    top: 754px;
+}
+.lemon {
+    width: 117px;
+    height: 113px;
+    left: 942px;
+    top: 630px;
+    z-index: 7;
+}
+.man-with-ball {
+    width: 663px;
+    height: 663px;
+    left: -8px;
+    top: 110px;
+    filter: drop-shadow(0px 4px 30px rgba(105, 60, 60, 0.25));
+    z-index: 4;
+}
+.miracle {
+    width: 493px;
+    height: 732px;
+    left: 841px;
+    top: 21px;
+    filter: drop-shadow(0px 4px 30px rgba(255, 255, 255, 0.25));
+    z-index: 3;
+}
+.percent {
+    width: 491px;
+    height: 161px;
+    left: 420px;
+    top: 414px;
+    box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.5);
+    z-index: 7;
+}
+.seven {
+    width: 96px;
+    height: 121px;
+    left: 889px;
+    top: 84px;
+    z-index: 7;
+}
+.stiker {
+    width: 310px;
+    height: 167px;
+    left: 969px;
+    top: 512px;
+    z-index: 5;
+}
+.tenge {
+    width: 744px;
+    height: 227px;
+    left: 312px;
+    top: 144px;
+    box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.4);
+    z-index: 7;
 }
