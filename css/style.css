@@ -1,13 +1,17 @@
 .body {
     background-color: rgb(31, 30, 30); 
-    position: relative;
     color: #FFFFFF;
-    font-family: Rubik, sans-serif; 
+    font-family: Rubik, sans-serif;
 }
 .section {
+    position: relative;
+    display: block;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 @media screen and (min-width: 480px) {
     .section{
@@ -50,16 +54,16 @@
     z-index: 6;
 }
 .big-coin {
-    width: 80.14px;
-    height: 112.47px;
-    left: 437.58px;
-    top: 726.54px;
+    width: 80px;
+    height: 112px;
+    left: 385px;
+    top: 620px;
     z-index: 7;
 }
 .cherry {
-    width: 101.48px;
+    width: 101px;
     height: 92px;
-    left: 1083.05px;
+    left: 1043px;
     top: 396px;
     z-index: 7;
 }
@@ -68,14 +72,14 @@
     width: 108px;
     height: 80px;
     left: 688px;
-    top: 38px;
+    top: 58px;
     z-index: 7;
 }
 .coin {
     width: 89px;
     height: 65px;
     left: 976px;
-    top: 270.85px;
+    top: 260px;
     z-index: 7;
 }
 .footballer {
@@ -91,6 +95,7 @@
     height: 97px;
     left: 671px;
     top: 754px;
+    z-index: 7;
 }
 .lemon {
     width: 117px;
@@ -118,8 +123,8 @@
 .percent {
     width: 491px;
     height: 161px;
-    left: 420px;
-    top: 414px;
+    left: 400px;
+    top: 379px;
     box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.5);
     z-index: 7;
 }
@@ -127,7 +132,7 @@
     width: 96px;
     height: 121px;
     left: 889px;
-    top: 84px;
+    top: 104px;
     z-index: 7;
 }
 .stiker {
@@ -137,11 +142,44 @@
     top: 512px;
     z-index: 5;
 }
+.link {
+    width: 231px;
+    height: 72px;
+    position: absolute;
+    left: 1013px;
+    top: 567px;
+    z-index: 7;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: center;
+    color: #FFFFFF;
+}
+.site {
+    font-size: 24px;
+    line-height: 1.17;
+}
 .tenge {
     width: 744px;
     height: 227px;
-    left: 312px;
-    top: 144px;
+    left: 302px;
+    top: 184px;
     box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.4);
     z-index: 7;
+}
+.text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.19;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    position: absolute;
+    left: 513px;
+    top: 193px;
+    z-index: 7;
+}
+.text--position {
+    top: 572px;
+    left: 545px;
 }
