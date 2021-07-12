@@ -12,8 +12,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-}
-@media screen and (min-width: 480px) {
+/*@media screen and (min-width: 480px) {
     .section{
         width: 480px;
         margin: 0 auto;
@@ -28,59 +27,72 @@
     .section {
         width: 1200px;
     }
-}
+}*/
 .picture {
     position: absolute;
 }
-.background {
-    width: 1920px;
-    height: 1080px;
+.picture-background {
     left: 0px;
     top: 0px;
     z-index: 1;
 }
-.logo {
-    width: 486px;
-    height: 185px;
+.background {
+    width: 1200px;
+    height: 800px;
+}
+.picture-logo {
     left: 62px;
     top: 0px;
     z-index: 2;
 }
-.ball {
-    width: 152px;
-    height: 149px;
+.logo {
+    width: 486px;
+    height: 185px;
+}
+.picture-ball {
     left: 145px;
     top: 320px;
     z-index: 6;
 }
+.ball {
+    width: 152px;
+    height: 149px;
+}
+.picture-big-coin {
+    left: 385px;
+    top: 620px;
+    z-index: 7;
+}
 .big-coin {
     width: 80px;
     height: 112px;
-    left: 385px;
-    top: 620px;
+}
+.picture-cherry {
+    left: 1043px;
+    top: 396px;
     z-index: 7;
 }
 .cherry {
     width: 101px;
     height: 92px;
-    left: 1043px;
-    top: 396px;
+}
+.picture-chip {
+    left: 688px;
+    top: 58px;
     z-index: 7;
 }
 .chip {
-    position: absolute;
     width: 108px;
     height: 80px;
-    left: 688px;
-    top: 58px;
+}
+.picture-coin{
+    left: 976px;
+    top: 260px;
     z-index: 7;
 }
 .coin {
     width: 89px;
     height: 65px;
-    left: 976px;
-    top: 260px;
-    z-index: 7;
 }
 .footballer {
     display: none;
@@ -160,13 +172,15 @@
     font-size: 24px;
     line-height: 1.17;
 }
-.tenge {
-    width: 744px;
-    height: 227px;
+.picture-tenge {
     left: 302px;
     top: 184px;
     box-shadow: 0px 4px 70px 3px rgba(0, 0, 0, 0.4);
     z-index: 7;
+}
+.tenge {
+    width: 890px;
+    height: 373px; 
 }
 .button {
     width: 443px;
